@@ -33,7 +33,7 @@ main {
 
 /* utility classes */
 .container {
-    max-width: 800px;
+    max-width: 75%;
     margin: 0 auto;
 }
 
@@ -89,8 +89,10 @@ main {
 
 /* buttons bar */
 .buttons-bar {
-    padding: 15px 60px 10px 60px;
-    margin-bottom: 5px;
+    padding: 20px 60px 10px 60px;
+    margin-bottom: 3px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
 }
 
 .button {
@@ -106,7 +108,7 @@ main {
 }
 
 .section-button {
-    margin-left: 8px;
+    margin-left: 2.5px;
     border: 1.5px solid #b2b9be;
     color: #DADFE1;
     font-weight: 600;
@@ -117,6 +119,8 @@ main {
 .todo-list {
     padding: 50px;
     color: #454952;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
 }
 
 .todo-list__title {
