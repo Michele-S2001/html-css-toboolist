@@ -5,9 +5,10 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #F6F8F9;
-    font-family: sans-serif;
+button {
+    border: none;
+    width: auto;
+    background: transparent;
 }
 
 ol,
@@ -19,14 +20,29 @@ img {
     max-width: 100%;
 }
 
+/* tags style */
+
+body {
+    background-color: #F6F8F9;
+    font-family: sans-serif;
+}
+
+main {
+    margin-top: 40px;
+}
+
 /* utility classes */
 .container {
-    max-width: 70%;
+    max-width: 800px;
     margin: 0 auto;
 }
 
+.bgc-white {
+    background-color: white;
+}
+
 .bgc-blue {
-    background-color: #47ADF1;
+    background-color: #45ABEA;
 }
 
 .mark-color {
@@ -48,5 +64,29 @@ img {
     font-weight: 700;
     color: #041931;
     padding: 15px 25px;
-    background-color: white;
+}
+
+/* buttons bar */
+.buttons-bar {
+    padding: 15px 60px 10px 60px;
+    margin-bottom: 5px;
+}
+
+.button {
+    padding: 8px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task-button {
+    background-color: #47adf1;
+    border: 1.5px solid #47adf1;
+    color: white;
+}
+
+.section-button {
+    margin-left: 8px;
+    border: 1.5px solid #b2b9be;
+    color: #DADFE1;
+    font-weight: 600;
 }
