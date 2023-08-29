@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F6F8F9;
+    font-family: sans-serif;
+}
+
 ol,
 ul {
     list-style: none;
@@ -12,4 +17,36 @@ ul {
 
 img {
     max-width: 100%;
+}
+
+/* utility classes */
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.bgc-blue {
+    background-color: #47ADF1;
+}
+
+.mark-color {
+    color: #70C4AF;
+}
+
+.cross-color {
+    color: #EB5851;
+}
+
+/* logo bar */
+.logo {
+    vertical-align: middle;
+    width: 60px;
+}
+
+.logo-bar {
+    font-size: 45px;
+    font-weight: 700;
+    color: #041931;
+    padding: 15px 25px;
+    background-color: white;
 }
