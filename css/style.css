@@ -90,3 +90,40 @@ main {
     color: #DADFE1;
     font-weight: 600;
 }
+
+/*  todo-list  */
+
+.todo-list {
+    padding: 50px;
+    color: #454952;
+}
+
+.todo-list__title {
+    margin-bottom: 10px;
+}
+
+.todo-list__message {
+    font-size: 18px;
+}
+
+.check-mark {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    font-size: 14px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(80, 219, 80);
+    color: rgb(80, 219, 80);;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.subject {
+    display: inline-block;
+    font-size: 11px;
+    padding: 8px 10px;
+    border-radius: 15px;
+    color: white;
+}
