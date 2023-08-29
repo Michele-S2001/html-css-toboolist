@@ -37,6 +37,15 @@ main {
     margin: 0 auto;
 }
 
+.mrg-top-ul {
+    margin-top: 40px;
+}
+
+.mrg-top-li {
+    margin-top: 25px;
+}
+
+        /* background colors */
 .bgc-white {
     background-color: white;
 }
@@ -45,12 +54,24 @@ main {
     background-color: #45ABEA;
 }
 
-.mark-color {
-    color: #70C4AF;
+.bgc-violet {
+    background-color: #9c72e4;
 }
 
-.cross-color {
-    color: #EB5851;
+.bgc-oceanblue {
+    background-color: #64c0a9;
+}
+
+.bgc-orange {
+    background-color: #f29e33;
+}
+
+.bgc-lightviolet {
+    background-color: #d863a1;
+}
+
+.bgc-green {
+    background-color: #b0c926;
 }
 
 /* logo bar */
@@ -120,10 +141,24 @@ main {
     vertical-align: middle;
 }
 
+.cross-mark {
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    font-size: 14px;
+    border-radius: 50%;
+    border: 1.5px solid rgb(223, 52, 52);
+    color: rgb(223, 52, 52);;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
 .subject {
     display: inline-block;
     font-size: 11px;
-    padding: 8px 10px;
+    padding: 8px 15px;
     border-radius: 15px;
     color: white;
 }
